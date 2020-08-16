@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix home</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://vjs.zencdn.net/7.8.4/video-js.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="clearfix">
+
+        <!--Navigation-->
+        <div class="clearfix">
+            <h1><a href="#"><img id="logo" src="img/netflix.svg" alt="Netflix homepage signed out"></a></h1>
+            <nav>
+                <ul>
+                    <li><a href='#'>About</a></li>
+                    <li><a href='#'>Pricing</a></li>
+                    <li><a href='#'>Contact</a></li>
+                </ul>
+            </nav>
+            <a id="loginBtn" href='#'><img src="img/loginBtn.svg" alt="login"></a>
+        </div>
+
+        <!--Textblock header trailer-->
+        <div id="htrailer1">
+            <h3>A Netflix original</h3>
+            <h2 class="h2White">Something strange is happening in Hawkins </h2>
+            <p class="pWhite">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
+                massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum.</p>
+            <button class="button redButton">Try free</button>
+        </div>
+
+        <!--Image header trailer-->
+        <div id="htrailer2">
+            <button id="playBtn" class="button"><img src="img/playBtn.svg" alt="playbutton"></button>
+        </div>
+
+        <!--Modal-->
+        <div id="modalAG">
+            <div id="modalContent">
+                <button id="close" class="button"><img src="img/close.svg" alt="close button"></button>
+                <div id="videoContainerModal">
+                    <video id="my-video0" class="video-js vjs-fluid" preload="auto" poster="img/stranger-2@2x.jpg"
+                        data-setup="{}">
+                        <source
+                            src="https://player.vimeo.com/external/435694913.sd.mp4?s=de74f7b1d4820b3c493b9a8405b9a7dfd733d391&profile_id=165"
+                            type="video/mp4" />
+                        <p class="vjs-no-js">
+                            To view this video please enable JavaScript, and consider upgrading to a
+                            web browser that
+                            <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                        </p>
+                    </video>
+                    <div class="controls">
+                        <div class="buttonBox">
+                            <button id="playPause0" class="opmaakBtnP afspelen"></button>
+                            <button id="forward0" class="opmaakBtnF"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!--Video playlist-->
+        <div id="playlistBox">
+            <div class="textGridMain">
+                <h3>Stop doing stuff, start watching</h3>
+                <h2>200+ of the best shows,<br>
+                    waiting to be watched</h2>
+            </div>
+
+            <!--Video's-->
+            <div id="playlist">
+                <!--Vid1-->
+                <div class="videoContainer" id="size1">
+                    <video id="my-video1" class="video-js vjs-fluid" preload="auto" poster="img/irishman@2x.jpg"
+                        data-setup="{}">
+                        <source
+                            src="https://player.vimeo.com/external/435456507.sd.mp4?s=3c1ae12b507cff09bab3825363b4f45115bfd9ee&profile_id=165"
+                            type="video/mp4" />
+                        <p class="vjs-no-js">
+                            To view this video please enable JavaScript, and consider upgrading to a
+                            web browser that
+                            <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                        </p>
+                    </video>
+                    <div class="controls">
+                        <div class="buttonBox">
+                            <button id="playPause1" class="opmaakBtnP afspelen"></button>
+                            <button id="forward1" class="opmaakBtnF"></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Vid2-->
+                <div class="videoContainer" id="size2">
+                    <video id="my-video2" class="video-js vjs-fluid" preload="auto" poster="img/dark@2x.jpg"
+                        data-setup="{}">
+                        <source
+                            src="https://player.vimeo.com/external/435441132.sd.mp4?s=26f82038e36c5ff9852520def245b15a5e189564&profile_id=165"
+                            type="video/mp4" />
+                        <p class="vjs-no-js">
+                            To view this video please enable JavaScript, and consider upgrading to a
+                            web browser that
+                            <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                        </p>
+                    </video>
+                    <div class="controls">
+                        <div class="buttonBox">
+                            <button id="playPause2" class="opmaakBtnP afspelen"></button>
+                            <button id="forward2" class="opmaakBtnF"></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Vid3-->
+                <div class="videoContainer" id="size3">
+                    <video id="my-video3" class="video-js vjs-fluid" preload="auto" poster="img/ozark@2x.jpg"
+                        data-setup="{}">
+                        <source
+                            src="https://player.vimeo.com/external/435458185.sd.mp4?s=2a37e07117c3ddd4f9cbb6c810d90c54f4ea1749&profile_id=164"
+                            type="video/mp4" />
+                        <p class="vjs-no-js">
+                            To view this video please enable JavaScript, and consider upgrading to a
+                            web browser that
+                            <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                        </p>
+                    </video>
+                    <div class="controls">
+                        <div class="buttonBox">
+                            <button id="playPause3" class="opmaakBtnP afspelen"></button>
+                            <button id="forward3" class="opmaakBtnF"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="textGridMain">
+                <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit
+                    amet risus. Cras mattis consectetur purus sit amet fermentum.</p>
+                <button class="button redButton" id="blackHover">Try free</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <!--Tabs-->
+        <div id="abboBox">
+            <h2 class="h2White textGridMain">Choose the plan that’s right for you</h2>
+            <div id="tabs">
+                <ul>
+                    <li><a class="tabMidden" href="#tabs-1">Basic</a></li>
+                    <li><a class="tabMidden" href="#tabs-2">Standard</a></li>
+                    <li><a class="tabMidden" href="#tabs-3">Premium</a></li>
+                </ul>
+                <div id="tabs-1">
+                    <div class="row">
+                        <div class="column right">
+                            <p class="pWhite">
+                                Monthly price <br>
+                                Video quality <br>
+                                Resolution <br>
+                                Screens <br>
+                                Unlimited films and TV <br>
+                                Cancel at any time <br>
+                            </p>
+
+                        </div>
+                        <div class="column left">
+                            <p>€7,99 <br>
+                                Low <br>
+                                SD <br>
+                                1 <br>
+                                <i class="fas fa-check"></i> <br>
+                                <i class="fas fa-check"></i>
+                            </p>
+                        </div>
+                    </div>
+                    <button class="button redButton">Pick this plan</button>
+                    <h4>Downgrade or upgrade at any time</h4>
+                </div>
+                <div id="tabs-2">
+                    <div class="row">
+                        <div class="column right">
+                            <p class="pWhite">Monthly price <br>
+                                Video quality <br>
+                                Resolution <br>
+                                Screens <br>
+                                Unlimited films and TV <br>
+                                Cancel at any time <br>
+                            </p>
+
+                        </div>
+                        <div class="column left">
+                            <p>€10,99 <br>
+                                Standard <br>
+                                HD <br>
+                                2 <br>
+                                <i class="fas fa-check"></i> <br>
+                                <i class="fas fa-check"></i>
+                            </p>
+                        </div>
+                    </div>
+                    <button class="button redButton">Pick this plan</button>
+                    <h4>Downgrade or upgrade at any time</h4>
+                </div>
+                <div id="tabs-3">
+                    <div class="row">
+                        <div class="column right">
+                            <p class="pWhite">Monthly price <br>
+                                Video quality <br>
+                                Resolution <br>
+                                Screens <br>
+                                Unlimited films and TV <br>
+                                Cancel at any time <br>
+                            </p>
+
+                        </div>
+                        <div class="column left">
+                            <p>€13,99 <br>
+                                Best <br>
+                                4K+HDR <br>
+                                4 <br>
+                                <i class="fas fa-check"></i> <br>
+                                <i class="fas fa-check"></i>
+                            </p>
+                        </div>
+                    </div>
+                    <button class="button redButton">Pick this plan</button>
+                    <h4>Downgrade or upgrade at any time</h4>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://kit.fontawesome.com/9627344d51.js" crossorigin="anonymous"></script>
+    <script src="https://vjs.zencdn.net/7.8.4/video.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
